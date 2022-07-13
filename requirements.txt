@@ -1,8 +1,9 @@
 transformers>=4.6.0,<5.0.0
 tokenizers>=0.10.3
 tqdm
-torch>=1.6.0
-torchvision
+torch==1.9.0
+torchvision==0.10.0
+https://storage.googleapis.com/tpu-pytorch/wheels/tpuvm/torch_xla-1.9-cp38-cp38-linux_x86_64.whl
 numpy
 scikit-learn
 scipy
